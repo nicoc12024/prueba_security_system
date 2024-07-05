@@ -9,6 +9,10 @@ Esta es la prueba técnica para el rol de Desarrollador Frontend en Security and
 - Carga de imagen de perfil
 - Uso de CSS Modules
 
+## Demo
+
+![Demo](./client/public/demo.png)
+
 ## Comenzando
 
 Primero, clona el repositorio:
