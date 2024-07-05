@@ -11,6 +11,7 @@ Esta es la prueba técnica para el rol de Desarrollador Frontend en Security and
 
 ## Demo
 
+![Demo Intro](public/demo2.png)
 ![Demo](public/demo.png)
 
 ## Comenzando
