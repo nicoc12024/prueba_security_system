@@ -1,0 +1,55 @@
+/* styles/IntroPage.module.css */
+.introPage {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  user-select: none;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  z-index: 99;
+}
+
+.introPage.fadeOut {
+  opacity: 0;
+}
+
+.introText {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.introText.fadeOut {
+  opacity: 0;
+}
+
+.introPage h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.introPage h2 {
+  font-size: 30px;
+}
+
+/* Media query para pantallas de 0 a 480px */
+@media (max-width: 480px) {
+  .introPage h1 {
+    font-size: 30px;
+  }
+
+  .introPage h2 {
+    font-size: 15px;
+  }
+}

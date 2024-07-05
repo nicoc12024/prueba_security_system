@@ -1,0 +1,70 @@
+.contactForm {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.contactForm h2 {
+  margin-bottom: 10px;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactForm .formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  outline: none; /* Elimina el borde de enfoque predeterminado del navegador */
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #e5e7eb; /* Mantén el mismo color de borde */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Mantén la misma sombra */
+}
+
+.contactForm textarea {
+  padding: 10px;
+  height: 100px;
+}
+
+.contactForm button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s;
+}
+
+.contactForm button:hover {
+  background-color: #005bb5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contactForm .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+}

@@ -1,0 +1,67 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  left: 25px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.profileImageContainer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 4px white solid;
+  background-color: rgb(190, 190, 190);
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.photoIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px;
+  border-top-left-radius: 2px;
+  z-index: 10;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: white;
+}

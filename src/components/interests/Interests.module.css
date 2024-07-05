@@ -1,0 +1,46 @@
+.interests {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.interests h2 {
+  margin-bottom: 20px;
+}
+
+.interests ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.interests li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s;
+  width: calc(100% - 20px); /* Default to full width for mobile */
+  text-align: center;
+  user-select: none;
+}
+
+@media (min-width: 480px) {
+  .interests li {
+    width: calc(50% - 20px); /* Two items per row for larger screens */
+  }
+}
+
+.interests li:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.interests li span {
+  font-weight: bold;
+  font-size: 14px;
+}
