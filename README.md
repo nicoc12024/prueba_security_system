@@ -1,6 +1,6 @@
 # Prueba Frontend - Security and System
 
-Esta es la prueba técnica para el rol de Desarrollador Frontend en Security and System. Se requiere una página web responsive con distintas secciones como cabecera con imagen perfil y nombre, sobre mí, intereses y un formulario de contacto. La página incluye una animación de carga para la imagen de perfil y la capacidad de cambiar la imagen del perfil. Además, se muestra una página de introducción previa a la home page que se desvanece suavemente después de unos segundos.
+Esta es la prueba técnica para el rol de Desarrollador Frontend en Security and System. Se requiere una página web responsive con distintas secciones como cabecera con imagen perfil y nombre, sobre mí, intereses y un formulario de contacto con validación de campos. La página incluye una animación de carga para la imagen de perfil y la capacidad de cambiar la imagen del perfil. Además, se muestra una página de introducción previa a la home page que se desvanece suavemente después de unos segundos.
 
 ## Características adicionales
 
