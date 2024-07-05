@@ -8,6 +8,7 @@ Esta es la prueba técnica para el rol de Desarrollador Frontend en Security and
 - Efectos de transición
 - Carga de imagen de perfil
 - Uso de CSS Modules
+- Uso de Roboto como estilo de fuente
 
 ## Demo
 
